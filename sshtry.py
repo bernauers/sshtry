@@ -4,8 +4,8 @@ import paramiko
 
 #parameters
 server = '<IP>' #Change 
-un = ["elizabeth", "tara", "becky", "randy", "pablo", "bessie", "gerardo", "sabrina"] #Change - List of username
-pw = 'CHANGEME' #Change - Password
+un = ["elizabeth", "tara", "becky", "randy", "pablo", "bessie", "gerardo", "sabrina"] #Change - List of usernames
+pw = 'CHANGEME' #Change - default password
 
 #ssh
 ssh = paramiko.SSHClient()
